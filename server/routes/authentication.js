@@ -7,3 +7,5 @@ const User = require('../models/user');
 router.get('/', (req, res, next) => AuthController.getRoot(req, res, next));
 
 module.exports = router;
+
+//testing 1 2 3
